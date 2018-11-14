@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding:0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-transition: 2s;
+          -webkit-transition: .2s;
+          transition: .2s;
+
+          border:1px solid black
+}
+
+.sec{
+  min-height: 100vh;
+  
+}
+
+.inactive, .inactive *{
+  height: 0;
+  min-height: 0;
+  font-size: 0;
+  overflow: none;
+  margin: 0;
+}

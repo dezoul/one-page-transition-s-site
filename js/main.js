@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-
   $(".screen-vertical-wipe").click(function(){
     var target = $(this).attr("data-vert-target");
     $(".sec").each(function(){
@@ -25,5 +24,4 @@ $( document ).ready(function() {
   $(".reset-horizontal").click(function(){
     $(".horizontal-sec").removeClass("inactive")
   })
-
 })
